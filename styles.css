@@ -1,1 +1,103 @@
-test2
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  background: #f0f0f0;
+  font: 14px/20px Arial, San-Serif;
+  color: #555;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 180%;
+  line-height: 120%;
+  padding: 5% 0;
+}
+h2 {
+  text-decoration: underline;
+  line-height: 280%;
+  padding-left: 2%;
+}
+h3 {
+  line-height: 110px;
+  padding: 5% 0;
+}
+p {
+  padding: 1%;
+}
+img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+header {
+  background: #405580;
+  width: 100%;
+  height: 86px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0.90;
+}
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 60px;
+  background: url(http://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repeat center;
+}
+nav {
+  float: right;
+  padding: 35px 20px 20px 0px;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(http://www.w3newbie.com/wp-content-uploads/icon.png) center;
+}
+a:hover#menu-icon {
+  border-radius: 4px 4px 0px 0px;
+}
+ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+.current {
+  color: #FFF;
+  text-decoration: underline;
+}
+#doc {
+  margin: 40px 0;
+}
+#content {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.blueberry {
+  max-width: 960px;
+  margin-top: 110px;
+}
+section {
+  width: 29%;
+  float: left;
+  margin: 2%;
+  text-align: center;
+}
